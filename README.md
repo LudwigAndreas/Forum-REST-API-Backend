@@ -6,6 +6,10 @@ Microservice-based REST API backend for a forum application. The backend is buil
 
 ## Features
 
+- User authentication and authorization using Keycloak
+- Topics service implemented using Spring WebFlux
+- User service integrated with Keycloak
+- Topics service caching using Redis
 
 ## Table of Contents
 
