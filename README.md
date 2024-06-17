@@ -1,15 +1,26 @@
 # Forum REST API Backend
 
+🚧 Project Status: In Progress 🚧
+
+**Note**: This project is currently under development. Not all features have been implemented yet. Please refer to the Features section for details on what has been completed and what is still in progress.
+
 ## Overview
 
 Microservice-based REST API backend for a forum application. The backend is built using Java with Spring. The application utilizes most of the current technologies used in enterprise solutions. The application is containerized using Docker and deployed using Docker Compose.
 
 ## Features
 
-- User authentication and authorization using Keycloak
-- Topics service implemented using Spring WebFlux
-- User service integrated with Keycloak
-- Topics service caching using Redis
+- [x] User authentication and authorization using Keycloak
+- [x] Topics service implemented using Spring WebFlux
+- [x] User service integrated with Keycloak
+- [x] Topics service caching using Redis
+- [ ] User service caching using Redis
+- [ ] Id Generator service for generating unique IDs for topics
+- [ ] Topics service sharding using Id Generator service
+- [ ] Gateway service using Spring Cloud Gateway
+- [ ] Monitoring using Prometheus and Grafana
+- [ ] Distributed tracing using Jaeger
+- [ ] Analytics service for tracking user activity
 
 ## Table of Contents
 
