@@ -14,6 +14,7 @@ Microservice-based REST API backend for a forum application. The backend is buil
 - [x] Topics service implemented using Spring WebFlux
 - [x] User service integrated with Keycloak
 - [x] Topics service caching using Redis
+- [ ] Common Docker Compose setup
 - [ ] User service caching using Redis
 - [ ] Id Generator service for generating unique IDs for topics
 - [ ] Topics service sharding using Id Generator service
@@ -21,6 +22,9 @@ Microservice-based REST API backend for a forum application. The backend is buil
 - [ ] Monitoring using Prometheus and Grafana
 - [ ] Distributed tracing using Jaeger
 - [ ] Analytics service for tracking user activity
+- [ ] Kafka for data streaming
+- [ ] CI/CD pipeline using Jenkins
+- [ ] Deployment using Kubernetes
 
 ## Table of Contents
 
